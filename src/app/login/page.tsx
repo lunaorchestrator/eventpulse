@@ -83,6 +83,12 @@ export default function LoginPage() {
             Sign up
           </Link>
         </p>
+
+        <div className="mt-4 rounded-lg border border-dashed border-zinc-300 bg-zinc-50 px-4 py-3 text-sm">
+          <p className="mb-1 font-medium text-zinc-600">Test credentials</p>
+          <p className="text-zinc-500">Email: <span className="font-mono">test@eventpulse.app</span></p>
+          <p className="text-zinc-500">Password: <span className="font-mono">Test123!</span></p>
+        </div>
       </div>
     </div>
   );
